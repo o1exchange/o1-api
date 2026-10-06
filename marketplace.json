@@ -1,12 +1,16 @@
 {
   "name": "o1.exchange Trading Skills",
-  "description": "Skills for trading on o1.exchange with MEV protection and multi-network support",
-  "version": "1.0.0",
+  "owner": {
+    "name": "o1.exchange",
+    "url": "https://github.com/o1exchange"
+  },
+  "description": "Skills for trading on o1.exchange with MEV protection, fail-closed transaction validation, and multi-network support for Base and BSC",
+  "version": "1.1.0",
   "skills": [
     {
       "name": "o1.exchange Trading API",
       "path": ".",
-      "description": "Execute trades on o1.exchange with enterprise-grade features including MEV protection, gasless approvals, and multi-network support for Base and BSC"
+      "description": "Execute trades on o1.exchange with enterprise-grade features including MEV protection, gasless approvals, and multi-network support for Base and BSC. Performs real transactions: configure the trusted-contract allowlist and notional cap before use."
     }
   ]
 }

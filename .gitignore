@@ -1,0 +1,14 @@
+# Secrets -- never commit. This repository documents a workflow that creates
+# .env.local inside the project directory, holding a wallet private key and an
+# API bearer token.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dependencies and build output.
+node_modules/
+npm-debug.log*
+package-lock.json.bak
+dist/

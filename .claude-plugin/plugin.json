@@ -1,12 +1,12 @@
 {
   "name": "o1-exchange-trading",
-  "version": "1.0.0",
-  "description": "o1.exchange Trading API integration for Claude Code with MEV protection and multi-network support",
+  "version": "1.1.0",
+  "description": "o1.exchange Trading API integration for Claude Code with MEV protection, fail-closed transaction validation, and multi-network support",
   "author": "o1.exchange",
-  "homepage": "https://github.com/yourusername/o1-api",
+  "homepage": "https://github.com/o1exchange/o1-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/o1-api.git"
+    "url": "https://github.com/o1exchange/o1-api.git"
   },
   "keywords": ["trading", "defi", "blockchain", "o1exchange", "crypto", "mev-protection", "gasless", "base", "bsc"],
   "main": "SKILL.md",
@@ -15,14 +15,12 @@
     "sampleScripts/",
     "README.md",
     "CLAUDE.md",
-    "marketplace.json"
+    "marketplace.json",
+    "package.json",
+    "package-lock.json"
   ],
   "engines": {
-    "claude-code": ">=1.0.0"
-  },
-  "dependencies": {
-    "axios": "^1.0.0",
-    "ethers": "^6.0.0",
-    "dotenv": "^16.0.0"
+    "claude-code": ">=1.0.0",
+    "node": ">=20.19"
   }
 }
